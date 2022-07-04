@@ -1,3 +1,4 @@
 # dependencies
 /node_modules
 /my-app
+/package-lock.json
