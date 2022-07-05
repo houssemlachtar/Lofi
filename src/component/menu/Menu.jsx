@@ -21,7 +21,7 @@ function MenuItem({ icon, handleActive, active, line, top, bottom, small }) {
 }
 
 const dStyle = {
-  z-index: '1',
+  zIndex: '1',
 };
 
 function Menu (){
