@@ -20,12 +20,16 @@ function MenuItem({ icon, handleActive, active, line, top, bottom, small }) {
     )
 }
 
+const dStyle = {
+  z-index: '1',
+};
+
 function Menu (){
 
     const{initActive, active, setActive} = useContext(ThemeContext)
    
     return(
-        <div className="fixed top-1/2 right-0 transform -translate-y-1/2 flex flex-row-reverse items-center z-50">
+        <div style={dStyle} className="fixed top-1/2 right-0 transform -translate-y-1/2 flex flex-row-reverse items-center z-50">
             <div className="relative mr-5 flex flex-col h-[145px] w-[72px] bg-transparent-b-60 rounded-full z-20">
 
                 <MenuItem
