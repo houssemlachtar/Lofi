@@ -4,6 +4,10 @@ import { arrowLeftIcon } from '../../assets/icons'
 import {ThemeContext} from '../../context/index';
 import { newBackground } from '../../untils/newBackground'
 
+const diStyle = {
+  transform: 'scale(0.7)',
+  margin: '-2rem',
+};
 
 function Set(){
 
@@ -32,7 +36,7 @@ function Set(){
         setDetail(false);
     }
     return (
-        <div className="absolute right-[88px] w-[345px] bg-bg-menu min-h-[400px] rounded-[24px] p-4 z-50">
+        <div style={diStyle} className="absolute right-[88px] w-[345px] bg-bg-menu min-h-[400px] rounded-[24px] p-4 z-50">
             {detail ? 
                 (<div className='flex justify-between items-center'>
                     <div className='transition-all duration-200 ease-linear hover:opacity-50 cursor-pointer'>
