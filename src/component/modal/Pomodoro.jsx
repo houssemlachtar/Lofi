@@ -163,6 +163,11 @@ function SettingPomo({handleSwitch, handleClose, defaultTime, setDefaultTime, se
     )
 }
 
+const Stylee = {
+  transform: 'scale(0.7)',
+  margin-left: '-12.1rem',
+};
+
 function Pomodoro() {
     const [setting, setSetting] = useState(false);
     const [reset, setReset] = useState(false);
@@ -221,7 +226,7 @@ function Pomodoro() {
     }
 
     return (
-        <div className="absolute max-h-screen top-20 left-1/2 transform -translate-x-1/2">
+        <div style={Stylee} className="absolute max-h-screen top-20 left-1/2 transform -translate-x-1/2">
             {setting ? 
              <SettingPomo 
                 handleSwitch={() => {setSetting(!setting);} } 
