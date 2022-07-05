@@ -30,6 +30,11 @@ function MoodItem({ iconSrc, label, className, isActive, handleClick }) {
 	);
 }
 
+const divStyle = {
+  transform: 'scale(0.6)',
+  margin: '-4rem',
+};
+
 function Mood(){
 
 	const {setCurrentMood, setCurrentAudio, setPlaying, moodTab, setMoodTab, controlRef, noisesRefs} = useContext(ThemeContext)
@@ -66,7 +71,7 @@ function Mood(){
 	};
 
     return (
-        <div className='absolute right-[100px] w-[345px] bg-bg-menu rounded-3xl p-6 z-20'>
+        <div style={divStyle} className='absolute right-[100px] w-[345px] bg-bg-menu rounded-3xl p-6 z-20'>
             <div className='mb-4 flex justify-between items-center'>
                 <h4 className='font-bold mb-4 text-xl text-white'>Mood</h4>
             </div>
