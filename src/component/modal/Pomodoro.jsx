@@ -165,7 +165,7 @@ function SettingPomo({handleSwitch, handleClose, defaultTime, setDefaultTime, se
 
 const Stylee = {
   transform: 'scale(0.7)',
-  margin-left: '-12.1rem',
+  marginLeft: '-12.1rem',
 };
 
 function Pomodoro() {
