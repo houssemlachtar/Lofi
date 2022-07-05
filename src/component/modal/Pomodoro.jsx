@@ -45,6 +45,10 @@ function ChangeTime({time, message, handlePlus, handleMinus, onChange}){
     )
 }
 
+const Styleee = {
+  marginLeft: '19.3rem',
+};
+
 function SettingPomo({handleSwitch, handleClose, defaultTime, setDefaultTime, setCurrentTime }){
     const {
         alarmOn, setAlarmOn, 
@@ -52,7 +56,7 @@ function SettingPomo({handleSwitch, handleClose, defaultTime, setDefaultTime, se
         setInitTimesAuto
     } = useContext(ThemeContext);
     return (
-        <div className="absolute max-h-screen left-1/2 transform -translate-x-1/2 p-6 ">
+        <div style={Styleee} className="absolute max-h-screen left-1/2 transform -translate-x-1/2 p-6 ">
             <div className='w-[440px] flex flex-col justify-center items-center rounded-3xl bg-black text-white p-6'>
                 {/* Back button */}
                 <div className='flex justify-between items-center w-full '>
