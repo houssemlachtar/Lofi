@@ -1,3 +1,20 @@
+# Lofi
+<p align="center">
+Your best music web apllication<br>
+To focus at work or while studying.
+<br>
+Boost your productivity
+<br>
+<br>        
+<a href="https://lofi-pearl.vercel.app">
+        <img alt="Thumbnail" src="./public/Lofi" />
+    </a>
+<br>
+<a href="https://lofi-pearl.vercel.app">
+        Demo
+    </a>
+</p>
+
 # Globally Installing React
 Run a cmd by administrator 
 
@@ -53,3 +70,23 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
+
+
+## Used Tools
+
+<details>
+  <summary>Framework</summary>
+  
+
+1. [React](https://reactjs.org).
+        
+</details>
+
+
+## Responsive and still on development ✔️
+## Better experience on desktop
+
+
+## Follow me on
+
+[Instagram](https://www.instagram.com/houssem_lachtar/), [Linkedin ](https://www.linkedin.com/in/houssem-lachtar/), [Codepen](https://codepen.io/houssem-lachtar), [GitHub](https://github.com/houssemlachtar)
