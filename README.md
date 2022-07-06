@@ -2,10 +2,15 @@
 Run a cmd by administrator 
 
 `npm i react --location=global`
+<br>
 `npm i react-scripts --location=global`
+<br>
 `npm i react-dom --location=global`
+<br>
 `npm i cra-template --location=global`
+<br>
 `npm i @tra 2.2.2 --location=global`
+<br>
 `npm i create-react-app --location=global`
 
 # Create A React App
@@ -17,16 +22,23 @@ Run a cmd by administrator
 In the project directory, you have to run these commands in a terminal by order:
 
 npm configs before:
-
+<br>
 `npm config set fetch-retry-mintimeout 2000000`
+<br>
 `npm config set fetch-retry-maxtimeout 12000000`
+<br>
 `npm config set registry http://registry.npmjs.org/`
+<br>
 `npm config set msvs_version 2015 --location=global`
+<br>
 `npm config set strict-ssl false`
 <br>
-`npm i --f`
+`npm install --force`
+<br>
 `npm update --force`
+<br>
 `npm install react-dom@latest react@latest`
+<br>
 `npm start`
 
 Runs the app in the development mode.\
