@@ -7,7 +7,7 @@ Boost your productivity
 <br>
 <br>        
 <a href="https://lofi-pearl.vercel.app">
-        <img alt="Thumbnail" src="./public/Lofi" />
+        <img alt="Thumbnail" src="./public/Thumbnail.jpg" />
     </a>
 <br>
 <a href="https://lofi-pearl.vercel.app">
