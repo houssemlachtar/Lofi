@@ -5,6 +5,8 @@ To focus at work or while studying.
 <br>
 Boost your productivity
 <br>
+Created with React JS
+<br>
 <br>        
 <a href="https://lofi-pearl.vercel.app">
         <img alt="Thumbnail" src="./public/Thumbnail.jpg" />
